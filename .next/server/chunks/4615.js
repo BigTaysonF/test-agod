@@ -78,7 +78,7 @@ var Split = __webpack_require__(1514);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(1664);
 ;// CONCATENATED MODULE: ./src/data/sections/about-us3.json
-const about_us3_namespaceObject = JSON.parse('{"wp":"/img/01.jpg","Lx":"/img/02.jpg","Qq":{"r":28,"u":"Years Of Experience"},"TN":{"P":"Dive into a new universe","E":" of connected services."},"kQ":{"P":"AGOD as the Alpha token; from which other development promoter tokens will be created in different categories, to which entrepreneurship and/or social projects will be linked."}}');
+const about_us3_namespaceObject = JSON.parse('{"wp":"/img/01.svg","Lx":"/img/02.svg","Qq":{"r":28,"u":"Years Of Experience"},"TN":{"P":"Dive into a new universe","E":" of connected services."},"kQ":{"P":"AGOD as the Alpha token; from which other development promoter tokens will be created in different categories, to which entrepreneurship and/or social projects will be linked."}}');
 // EXTERNAL MODULE: ./src/common/thumparallax.js
 var thumparallax = __webpack_require__(6025);
 // EXTERNAL MODULE: external "react/jsx-runtime"
@@ -285,7 +285,7 @@ const MinimalArea2 = () => {
             className: "img",
             children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("img", {
               className: "thumparallax-down",
-              src: "/img/min-area.jpg",
+              src: "/img/min-area.svg",
               alt: ""
             })
           })
@@ -376,14 +376,14 @@ const Services3 = () => {
             children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("h6", {
               className: "wow fadeIn",
               "data-wow-delay": ".5s",
-              children: "ENTER THE HUB"
+              children: "START AT THE CORE"
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("h3", {
               className: "wow color-font",
-              children: "The heart of the chain"
+              children: "The heart of the ecosystem"
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("h3", {
               className: "item wow fadeIn",
               children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("p", {
-                children: "Serving as the economic center of AGOD protocol, the Hub is the ecosystem that provides vital services to the apps and services within."
+                children: "Serving as the economic center of AGOD Ecosystem, the Core provides vital services to the apps and services within."
               })
             })]
           })

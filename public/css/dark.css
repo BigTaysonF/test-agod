@@ -1794,7 +1794,6 @@ span:hover {
 
 .navbar .navbar-nav .dropdown-item:hover {
   background: transparent;
-  color: #12c2e9;
 }
 
 .navbar .dropdown-menu {
@@ -1802,8 +1801,7 @@ span:hover {
   opacity: 0;
   visibility: hidden;
   border-radius: 0;
-  color: #fff;
-  background: #000;
+  background: transparent;
   min-width: 185px;
   -webkit-transform: translateY(20px);
   -ms-transform: translateY(20px);
@@ -1821,7 +1819,7 @@ span:hover {
 }
 
 .navbar .dropdown-menu .dropdown-item {
-  color: #fff;
+  background: transparent;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -1866,7 +1864,7 @@ span:hover {
   height: 100vh;
   top: 0;
   left: 0;
-  background: rgba(37, 37, 49, 0.98);
+  background: transparent;
   display: none;
 }
 
@@ -1902,11 +1900,11 @@ span:hover {
 }
 
 .navbar .logo {
-  width: 15%;
+  width: 12.5%;
 }
 
 .nav-scroll {
-  background: #1b1d21;
+  background: #000;
   border-color: #333538;
   padding: 0;
   position: fixed;
@@ -3912,6 +3910,7 @@ span:hover {
   -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  background-size: cover;
 }
 
 .agency .img .imgtwo {
@@ -3990,6 +3989,7 @@ span:hover {
 
 .agency .imgsec .imgone {
   position: relative;
+  background-size: cover;
   top: 0px;
 }
 
@@ -4784,11 +4784,15 @@ span:hover {
 .serv-arch .item .more {
   margin-top: 50px;
 }
+.min-area {
+  background-color: #000;
+}
 
 .min-area .img {
   padding: 120px 0 120px 80px;
   position: relative;
   z-index: 3;
+  background-color: #000;
 }
 
 .min-area .img:after {
@@ -4798,7 +4802,7 @@ span:hover {
   right: 120px;
   bottom: 0;
   left: -300px;
-  background: #18191d;
+  background-color: #000;
   z-index: -1;
 }
 
@@ -9234,5 +9238,8 @@ section.next-prog.section-padding {
 }
 .agency.section-padding.position-re{
   position: relative;
+  background-color: #000;
+}
+.team-crv.section-padding {
   background-color: #000;
 }

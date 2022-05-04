@@ -13,14 +13,13 @@ const Services3 = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                ENTER THE HUB
+              START AT THE CORE
               </h6>
-              <h3 className="wow color-font">The heart of the chain</h3>
+              <h3 className="wow color-font">The heart of the ecosystem</h3>
               <h3 className="item wow fadeIn">
                 <p>
-                  Serving as the economic center of AGOD protocol, the Hub is
-                  the ecosystem that provides vital services to the apps and
-                  services within.
+                Serving as the economic center of AGOD Ecosystem, 
+                the Core provides vital services to the apps and services within.
                 </p>
               </h3>
             </div>
