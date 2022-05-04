@@ -11,8 +11,7 @@ const Intro4 = ({ sliderRef, blackStar }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1>
-                <span className="color-font">Creativity</span> is the process of
-                having <span className="color-font">original ideas</span>.
+                <span className="color-font">AGOD Ecosystem</span><br /> THE NEXT-GEN OF FUNDING <br /><span className="color-font">We use blockchain to collectively fund & support startups at a global scale.</span>
               </h1>
             </div>
           </div>

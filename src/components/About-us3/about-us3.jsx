@@ -67,14 +67,6 @@ const AboutUs3 = () => {
                   {AboutUs3date.content.second}
                 </p>
               </Split>
-              {/* <Link href={`/about/about-dark`}>
-                <a
-                  className="butn bord curve mt-40 wow fadeInUp"
-                  data-wow-delay=".8s"
-                >
-                  <span>{AboutUs3date.smallTitle}</span>
-                </a>
-              </Link> */}
               <br />
             </div>
           </div>
