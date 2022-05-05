@@ -40,10 +40,10 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_0__["default"] {
           content: "IE=edge"
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx("meta", {
           name: "keywords",
-          content: "HTML5 Template Vie onepage themeforest"
+          content: "Agod - Protcol"
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx("meta", {
           name: "description",
-          content: "Vie - Onepage Multi-Purpose HTML5 Template"
+          content: "Agod - Protcol"
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx("meta", {
           name: "author",
           content: ""

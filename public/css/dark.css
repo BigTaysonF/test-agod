@@ -4368,11 +4368,14 @@ span:hover {
   position: relative;
   z-index: 2;
 }
+.services.box {
+  background: #000000;
+}
 
 .services.box .item-box {
   border: 0;
   border-radius: 15px;
-  background: rgba(255, 255, 255, 0.01);
+  background: #000000;
 }
 
 .services.box .item-box .icon {
@@ -4643,20 +4646,19 @@ span:hover {
   font-size: 70px;
   margin-bottom: 0;
 }
-
-.feat .items .icon svg {
-  width: 0;
-  height: 0;
-}
-
 .feat .items h5 {
   font-size: 22px;
   line-height: 1.5;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .feat .items .more-stroke {
   margin-top: 30px;
+}
+.feat .items .chido {
+  margin-top: 2rem;
+  margin-left: 5.75rem;
+text-align: center;
 }
 
 .feat .items .more-stroke span {
@@ -4711,6 +4713,7 @@ span:hover {
   -o-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
+
 
 .feat .items:hover .more-stroke span {
   width: 30px;
@@ -9253,4 +9256,10 @@ section.next-prog.section-padding {
   width: 50%;
   height: 50%;
   padding: 0;
+}
+.imgtayson {
+  position: relative;
+  width: 120%;
+  height: 120%;
+  left: 40%;
 }

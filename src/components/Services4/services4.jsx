@@ -1,40 +1,91 @@
 import React from "react";
-import featuresData from "../../data/sections/features.json";
+import Link from "next/link";
+import cardMouseEffect from "../../common/cardMouseEffect";
 
-const Services4 = ({serviceMB50}) => {
+const Services4 = () => {
+  React.useEffect(() => {
+    cardMouseEffect(document.querySelectorAll(".feat .items"));
+  }, []);
   return (
-    <section className="services box section-padding">
+    <section className="feat sub-bg section-padding">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row">
           <div className="col-lg-8 col-md-10">
-            <div className="sec-head  text-center">
+            <div className="sec-head">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
+              TAKE A LOOK AT OUR DOCUMENTS
               </h6>
-              <h3 className="wow color-font">
-                We are a new digital product development agency
+              <h3 className="wow color-font">Read Our Documents</h3>
+              <h3 className="item wow fadeIn">
+                <p>
+                Here is our full documents that will help you to understand about us. 
+                Any other requirement feel free to reach for us at:
+                </p>
               </h3>
             </div>
           </div>
         </div>
-        <div className="row">
-          {featuresData.slice(0, 3).map((item, index) => (
-            <div
-              className="col-lg-4 wow fadeInLeft"
-              data-wow-delay={index == 0 ? ".5s" : index == 1 ? ".7s" : ".9s"}
-              key={item.id}
-            >
-              <div
-                className={`item-box no-curve ${
-                  serviceMB50 && index + 1 != featuresData.length - 1 ? "mb-50" : ""
-                }`}
-              >
-                <span className={`icon color-font ${item.icon}`}></span>
-                <h6>{item.title}</h6>
-                <p>{item.content}</p>
-              </div>
+        <div className="row justify-content-around">
+          <div className="col-lg-4 mb-1 col-md-6 items md-mb30">
+            <div className="item wow fadeIn" data-wow-delay=".3s">
+              <h5>Whitepaper</h5>
+              <span className="icon">
+              <img className="imgtayson" src="/img/r1.png"></img>
+              </span>
+              <br />
+              <Link href="https://ablocexchange.medium.com/agod-protocol-white-papers-35fd12738b4d">
+                <a className="chido">
+                  <span>English</span>
+                </a>
+              </Link>
+              <span> -|- </span>
+              <Link href="https://ablocexchange.medium.com/transparencia-agod-protocol-9742ff8c075c">
+                <a>
+                  <span>Español</span>
+                </a>
+              </Link>
             </div>
-          ))}
+          </div>
+          <div className="col-lg-4 mb-1 col-md-6 items active md-mb30">
+            <div className="item wow fadeIn" data-wow-delay=".3s">
+              <h5>Angel Investors</h5>
+              <span className="icon">
+                <img className="imgtayson" src="/img/r2.jpg"></img>
+              </span>
+              <br />
+              <Link href="https://agod.mx/wp-content/uploads/2021/07/AngelInvestors.pdf">
+                <a className="chido">
+                  <span>English</span>
+                </a>
+              </Link>
+              <span> -|- </span>
+              <Link href="https://agod.mx/wp-content/uploads/2021/07/AngelesInversionistas.pdf">
+                <a>
+                  <span>Español</span>
+                </a>
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-4 mb-1 col-md-6 items sm-mb30">
+            <div className="item wow fadeIn" data-wow-delay=".3s">
+              <h5>Terms Sheet</h5>
+              <span className="icon">
+              <img className="imgtayson" src="/img/r3.jpg"></img>
+              </span>
+              <br />
+              <Link href="https://agod.mx/wp-content/uploads/2021/07/TermSheet.pdf">
+                <a className="chido">
+                  <span>English</span>
+                </a>
+              </Link>
+              <span> -|- </span>
+              <Link href="https://agod.mx/wp-content/uploads/2021/07/Terminos-Generales.pdf">
+                <a>
+                  <span>Español</span>
+                </a>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </section>
