@@ -8,128 +8,56 @@ const Footer = ({ hideBGCOLOR }) => {
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
         <div className="row justify-content-center">
-          {/* <div className="col-lg-4">
-            <div className="item md-mb50">
-              <div className="title">
-                <h5>Contact Us</h5>
-              </div>
-              <ul>
-                <li>
-                  <span className="icon pe-7s-map-marker"></span>
-                  <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
-                  </div>
-                </li>
-                <li>
-                  <span className="icon pe-7s-mail"></span>
-                  <div className="cont">
-                    <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
-                  </div>
-                </li>
-                <li>
-                  <span className="icon pe-7s-call"></span>
-                  <div className="cont">
-                    <h6>Call Us</h6>
-                    <p>+87986451666</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="item md-mb50">
-              <div className="title">
-                <h5>Recent News</h5>
-              </div>
-              <ul>
-                <li>
-                  <div className="img">
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        <img src="/img/blog/1.jpg" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="sm-post">
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
-                    </Link>
-                    <Link href="/blog/blog-dark">
-                      <a>
-                        <span className="date">14 sep 2022</span>
-                      </a>
-                    </Link>
-                  </div>
-                </li>
-                <li>
-                  <div className="img">
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        <img src="/img/blog/2.jpg" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="sm-post">
-                    <Link href="/blog-details/blog-details-dark">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
-                    </Link>
-                    <Link href="/blog/blog-dark">
-                      <a>
-                        <span className="date">14 sep 2022</span>
-                      </a>
-                    </Link>
-                  </div>
-                </li>
-                <li>
-                  <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane"></span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div> */}
-          <div className="col-lg-4">
+          <div className="col-xl-6">
             <div className="item">
-              <div className="logo">
-                <img src={appData.lightLogo} alt="" />
-              </div>
               <div className="social">
-                <a href="#0">
+                <a href="https://www.facebook.com/AgodCoin/">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
+                <a href="https://twitter.com/AgodProtocol">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#0">
+                <a href="https://www.instagram.com/AgodProtocol/">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
+                <a href="https://t.me/joinchat/pqK7k1A3rf82NGEx">
+                  <i className="fab fa-telegram"></i>
                 </a>
+                <a href="https://www.linkedin.com/company/agodprotocol">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://discord.com/invite/mgnwxa24Ph">
+                  <i className="fab fa-discord"></i>
+                </a>
+                <a href="https://ablocexchange.medium.com/">
+                  <i className="fab fa-medium"></i>
+                </a>
+              </div>
+              <div className="logo">
+                <img src={appData.footerlogo} alt="" />
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022, Vie Template. Made with passion by
+                Copyright © AGOD Protocol 2021, Marketing and Media By : 
                   <Link
-                    href="https://themeforest.net/user/themescamp/portfolio"
-                    
+                    href="https://knockout.media/"
                   >
-                    <a target="_blank">ThemesCamp</a>
+                    <a target="_blank">Knockout Media</a>
                   </Link>
                   .
+                </p>
+                <p>
+                <Link
+                    href="https://agod.mx/terms/"
+                  >
+                    <a target="_blank">Terms of Use</a>
+                  </Link>
+                   || 
+                  <Link
+                    href="https://agod.mx/privacy/"
+                  >
+                    <a target="_blank">Privacy Policy</a>
+                  </Link>
                 </p>
               </div>
             </div>

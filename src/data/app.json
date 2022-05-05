@@ -1,5 +1,6 @@
 {
     "lightLogo": "/img/logo-dark.png",
     "darkLogo": "/img/logo-dark.png",
+    "footerlogo": "/img/logo-footer.png",
     "showLoading": true
 }

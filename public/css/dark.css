@@ -8035,7 +8035,7 @@ span:hover {
 /* ====================== [ Start Footer ] ====================== */
 footer {
   color: #fff;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 
 footer .item .title h5 {
@@ -8046,7 +8046,6 @@ footer .item li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 25px;
 }
 
 footer .item li:last-of-type {
@@ -8106,11 +8105,16 @@ footer .item li .subscribe .subs {
 }
 
 footer .item .logo {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 footer .item .logo img {
-  width: 50px;
+  width: 30%;
+}
+footer .item .social {
+  text-align: center;
+  margin-top: 10px;
 }
 
 footer .item .social a {
@@ -8125,14 +8129,15 @@ footer .item .social a {
 }
 
 footer .item .copy-right {
-  margin-top: 30px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 footer .item .copy-right p {
-  font-size: 13px;
-  font-weight: 300;
+  font-size: 11px;
+  font-weight: 200;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 footer .item .copy-right p a {
