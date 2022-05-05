@@ -215,17 +215,19 @@ const Intro4 = ({
         className: "row justify-content-center",
         children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("div", {
           className: "col-lg-10",
-          children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
             className: "cont text-center",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h1", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h1", {
               children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("span", {
                 className: "color-font",
                 children: "AGOD Ecosystem"
-              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("br", {}), " THE NEXT-GEN OF FUNDING ", /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("br", {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("span", {
+              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("br", {}), " THE NEXT-GEN OF FUNDING ", /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("br", {})]
+            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("h4", {
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx("span", {
                 className: "color-font",
                 children: "We use blockchain to collectively fund & support startups at a global scale."
-              })]
-            })
+              })
+            })]
           })
         })
       })
@@ -300,36 +302,33 @@ const MinimalArea2 = () => {
               children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("p", {
                 className: "wow txt words chars splitting",
                 "data-splitting": true,
-                children: "Start building on Fantom using Solidity and the tools you\u2019re already familiar with: Remix, Truffle, and MetaMask. Fantom supports the EVM and you can deploy your dApps just like on Ethereum. In the points add :"
+                children: "We are building on Fantom. An advanced DAG-based aBFT consensus algorithm. Blockchains built on Fantom are fast, secure, and highly scalable:"
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ul", {
               children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("li", {
                 className: "wow fadeInUp",
                 "data-wow-delay": ".2s",
-                children: "EVM compatible"
+                children: "Fully compatible with the Ethereum Virtual Machine (EVM)."
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("li", {
                 className: "wow fadeInUp",
                 "data-wow-delay": ".4s",
-                children: "Oracles integrations"
+                children: "Web3JS API and RPC support."
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("li", {
                 className: "wow fadeInUp",
                 "data-wow-delay": ".4s",
-                children: "Open source"
+                children: "Smart contracts written in Solidity or Vyper."
               }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("li", {
                 className: "wow fadeInUp",
                 "data-wow-delay": ".4s",
-                children: "Robust APIs"
+                children: "Compiled and deployed on Ethereum, are fully compatible with the Opera Network."
               })]
-            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx(next_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
-              href: `/about/about-dark`,
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("a", {
-                className: "butn bord curve mt-40 wow fadeInUp",
-                "data-wow-delay": ".8s",
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("span", {
-                  children: "Discover"
-                })
+            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("br", {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx(_Split__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("p", {
+                className: "wow txt words chars splitting",
+                "data-splitting": true,
+                children: "AGOD Ecosystem hopes to build the infrastructure for a more connected and efficient future where people will be able to take advantage of the technological breakthroughs to improve the quality of their lives."
               })
-            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("br", {})]
+            })]
           })
         })]
       })
@@ -397,8 +396,9 @@ const Services3 = () => {
             "data-wow-delay": ".3s",
             children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
               className: "icon",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("i", {
-                className: "ion-ios-monitor"
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
+                className: "taysonimg",
+                src: "/img/f1.svg"
               })
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("h5", {
               children: "Abloc CEX"
@@ -419,8 +419,9 @@ const Services3 = () => {
             "data-wow-delay": ".3s",
             children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
               className: "icon",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("i", {
-                className: "ion-ios-bolt-outline"
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
+                className: "taysonimg",
+                src: "/img/f2.svg"
               })
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("h5", {
               children: "Decentralized Exchange"
@@ -441,8 +442,9 @@ const Services3 = () => {
             "data-wow-delay": ".3s",
             children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
               className: "icon",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("i", {
-                className: "ion-cube"
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
+                className: "taysonimg",
+                src: "/img/f3.svg"
               })
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("h5", {
               children: "Dreamhub"
@@ -463,8 +465,9 @@ const Services3 = () => {
             "data-wow-delay": ".3s",
             children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
               className: "icon",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("i", {
-                className: "ion-ios-color-wand"
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
+                className: "taysonimg",
+                src: "/img/f4.svg"
               })
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("h5", {
               children: "Pandora\u2019s Finance"
@@ -485,8 +488,9 @@ const Services3 = () => {
             "data-wow-delay": ".3s",
             children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {
               className: "icon",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("i", {
-                className: "ion-ios-color-wand"
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
+                className: "taysonimg",
+                src: "/img/f5.svg"
               })
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("h5", {
               children: "Wallet"

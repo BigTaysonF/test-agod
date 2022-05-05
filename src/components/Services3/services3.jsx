@@ -29,7 +29,7 @@ const Services3 = () => {
           <div className="col-lg-4 mb-1 col-md-6 items md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <i className="ion-ios-monitor"></i>
+              <img className="taysonimg" src="/img/f1.svg"></img>
               </span>
               <h5>Abloc CEX</h5>
               <p>
@@ -46,7 +46,7 @@ const Services3 = () => {
           <div className="col-lg-4 mb-1 col-md-6 items active md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <i className="ion-ios-bolt-outline"></i>
+                <img className="taysonimg" src="/img/f2.svg"></img>
               </span>
               <h5>Decentralized Exchange</h5>
               <p>
@@ -64,7 +64,7 @@ const Services3 = () => {
           <div className="col-lg-4 mb-1 col-md-6 items sm-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <i className="ion-cube"></i>
+              <img className="taysonimg" src="/img/f3.svg"></img>
               </span>
               <h5>Dreamhub</h5>
               <p>
@@ -81,7 +81,7 @@ const Services3 = () => {
           <div className="col-lg-4 mb-1 col-md-6 items">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <i className="ion-ios-color-wand"></i>
+              <img className="taysonimg" src="/img/f4.svg"></img>
               </span>
               <h5>Pandora’s Finance</h5>
               <p>
@@ -98,7 +98,7 @@ const Services3 = () => {
           <div className="col-lg-4 mb-1 col-md-6 items">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <i className="ion-ios-color-wand"></i>
+              <img className="taysonimg" src="/img/f5.svg"></img>
               </span>
               <h5>Wallet</h5>
               <p>

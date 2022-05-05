@@ -3385,10 +3385,10 @@ span:hover {
   width: 500px;
   height: 500px;
   border-radius: 70%;
-  background-image: -webkit-linear-gradient(45deg, #059dff, #36c6f0);
-  background-image: -o-linear-gradient(45deg, #059dff, #36c6f0);
-  background-image: linear-gradient(45deg, #059dff, #36c6f0);
-  opacity: 0.25;
+  background-image: -webkit-linear-gradient(45deg, #ff1500, #000000);
+  background-image: -o-linear-gradient(45deg, #ff1500, #000000);
+  background-image: linear-gradient(45deg, #ff1500, #000000);
+  opacity: 0.75;
   -webkit-filter: blur(100px);
   filter: blur(100px);
 }
@@ -4641,18 +4641,18 @@ span:hover {
 .feat .items .icon {
   color: #aaa;
   font-size: 70px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .feat .items .icon svg {
-  width: 1em;
-  height: 1em;
+  width: 0;
+  height: 0;
 }
 
 .feat .items h5 {
   font-size: 22px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .feat .items .more-stroke {
@@ -9242,4 +9242,10 @@ section.next-prog.section-padding {
 }
 .team-crv.section-padding {
   background-color: #000;
+}
+.taysonimg {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  padding: 0;
 }

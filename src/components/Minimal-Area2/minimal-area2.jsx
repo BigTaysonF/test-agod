@@ -28,36 +28,32 @@ const MinimalArea2 = () => {
               <h4 className="color-font">Build on Fantom</h4>
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  Start building on Fantom using Solidity and the tools you’re
-                  already familiar with: Remix, Truffle, and MetaMask. Fantom
-                  supports the EVM and you can deploy your dApps just like on
-                  Ethereum. In the points add :
+                We are building on Fantom. An advanced DAG-based aBFT consensus algorithm. 
+                Blockchains built on Fantom are fast, secure, and highly scalable:
                 </p>
               </Split>
               <ul>
                 <li className="wow fadeInUp" data-wow-delay=".2s">
-                  EVM compatible
+                Fully compatible with the Ethereum Virtual Machine (EVM). 
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
-                  Oracles integrations
+                Web3JS API and RPC support. 
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
-                  Open source
+                Smart contracts written in Solidity or Vyper.
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
-                  Robust APIs
+                Compiled and deployed on Ethereum, are fully compatible with the Opera Network.
                 </li>
               </ul>
-              <Link href={`/about/about-dark`}>
-                <a
-                  className="butn bord curve mt-40 wow fadeInUp"
-                  data-wow-delay=".8s"
-                >
-                  <span>Discover</span>
-                </a>
-              </Link>
-
               <br />
+              <Split>
+                <p className="wow txt words chars splitting" data-splitting>
+                AGOD Ecosystem hopes to build the infrastructure for a more connected and efficient 
+                future where people will be able to take advantage of the technological breakthroughs 
+                to improve the quality of their lives.
+                </p>
+              </Split>
             </div>
           </div>
         </div>
