@@ -18,7 +18,7 @@ const Team = () => {
           <div className="col-lg-5 valign">
             <div className="content wow fadeInUp md-mb30" data-wow-delay=".5s">
               <div className="sub-title">
-                <h6>Our Staff</h6>
+                <h6>Our World</h6>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -41,48 +41,12 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 offset-lg-1">
-            <div className="img-box">
-              <div className="row">
-                <div className="col-sm-6 toright">
-                  <div className="full-width">
-                    {teamsDate.teams.slice(0, 2).map((team, index) => (
-                      <div key={team.id}>
-                        <div
-                          className={`img sizxl ${
-                            index + 1 != teamsDate.teams.slice(0, 2).length
-                              ? "mb-30"
-                              : null
-                          }`}
-                          data-tooltip-tit={team.title}
-                          data-tooltip-sub={team.sub}
-                        >
-                          <img src={team.image} alt="" className="imago wow" />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                <div className="col-sm-6 toleft valign">
-                  <div className="full-width text-left">
-                    {teamsDate.teams.slice(2, 4).map((team, index) => (
-                      <div key={team.id}>
-                        <div
-                          className={`img sizxl ${
-                            index + 1 != teamsDate.teams.slice(2, 4).length
-                              ? "mb-30"
-                              : null
-                          }`}
-                          data-tooltip-tit={team.title}
-                          data-tooltip-sub={team.sub}
-                        >
-                          <img src={team.image} alt="" className="imago wow" />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+          <div className="col-lg-6">
+            <div className="img">
+              <img
+                src="/img/nucleo.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>

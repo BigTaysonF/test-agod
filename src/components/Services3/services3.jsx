@@ -36,11 +36,11 @@ const Services3 = () => {
                 The People’s Exchange. Designed for the community, better
                 returns, lower fees, great interface.
               </p>
-              <Link href="/about/about-dark">
+              {/*<Link href="/">*/
                 <a className="more-stroke">
                   <span></span>
                 </a>
-              </Link>
+              /*</Link>*/}
             </div>
           </div>
           <div className="col-lg-4 mb-1 col-md-6 items active md-mb30">
@@ -54,11 +54,11 @@ const Services3 = () => {
                 multichain, with very low fees and instant transaction
                 confirmation.
               </p>
-              <Link href="/about/about-dark">
+              {/*<Link href="/">*/
                 <a className="more-stroke">
-                  <span></span>
-                </a>
-              </Link>
+                <span></span>
+              </a>
+            /*</Link>*/}
             </div>
           </div>
           <div className="col-lg-4 mb-1 col-md-6 items sm-mb30">
@@ -71,11 +71,11 @@ const Services3 = () => {
                 NFT Marketplace. Set to operate a next-gen decentralized NFT
                 marketplace.
               </p>
-              <Link href="/about/about-dark">
+              {/*<Link href="/">*/
                 <a className="more-stroke">
-                  <span></span>
-                </a>
-              </Link>
+                <span></span>
+              </a>
+            /*</Link>*/}
             </div>
           </div>
           <div className="col-lg-4 mb-1 col-md-6 items">
@@ -88,11 +88,11 @@ const Services3 = () => {
                 Crypto Startup Enhancer, combining the power of a protocol that
                 builds native DAO tooling interfaces.
               </p>
-              <Link href="/about/about-dark">
+              {/*<Link href="/">*/
                 <a className="more-stroke">
-                  <span></span>
-                </a>
-              </Link>
+                <span></span>
+              </a>
+            /*</Link>*/}
             </div>
           </div>
           <div className="col-lg-4 mb-1 col-md-6 items">
@@ -106,11 +106,11 @@ const Services3 = () => {
                 assets and crypto is now possible, rewards, banking system,
                 bring your wallet with you everywhere.
               </p>
-              <Link href="/about/about-dark">
+              {/*<Link href="/">*/
                 <a className="more-stroke">
-                  <span></span>
-                </a>
-              </Link>
+                <span></span>
+              </a>
+            /*</Link>*/}
             </div>
           </div>
         </div>

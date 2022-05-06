@@ -157,13 +157,12 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
-    color-stop(#c471ed),
-    to(#f64f59)
+    from(#ee2f4c),
+    to(#961b1e)
   );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-linear-gradient(left, #ee2f4c, #961b1e);
+  background: -o-linear-gradient(left, #ee2f4c, #961b1e);
+  background: linear-gradient(to right, #ee2f4c, #961b1e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -313,7 +312,7 @@ span:hover {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .section-ptb {
@@ -3899,6 +3898,10 @@ span:hover {
   display: flex;
   position: relative;
 }
+.agency .agencyimg {
+  width: 70%;
+  height: 70%;
+}
 
 .agency .img .imgone {
   width: 55%;
@@ -6253,6 +6256,10 @@ text-align: center;
 
 .team .item {
   padding: 0 25px;
+}
+.team-crv .img img{
+  display: block;
+  margin-left: 6em;
 }
 
 .team .item.cir .img {

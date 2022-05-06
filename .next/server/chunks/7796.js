@@ -83,7 +83,7 @@ const teamSkillsProgress = () => {
 // EXTERNAL MODULE: ./src/common/tooltipEffect.js + 1 modules
 var tooltipEffect = __webpack_require__(850);
 ;// CONCATENATED MODULE: ./src/data/sections/team.json
-const team_namespaceObject = JSON.parse('{"f":[{"id":1,"image":"/img/team/1.svg","title":"Stephanie Lawrence","sub":"CEO, Colabrio Media"},{"id":2,"image":"/img/team/2.svg","title":"Alex Regelman","sub":"CEO, Colabrio Media"},{"id":3,"image":"/img/team/3.svg","title":"Stacey Stamper","sub":"CEO, Colabrio Media"},{"id":4,"image":"/img/team/4.svg","title":"Stephanie Lawrence","sub":"CEO, Colabrio Media"}],"n":[{"id":1,"text":"Decentralized Finance Applications","Paragraph":"The exchanges and marketplaces will allow anyone around the world to buy, trade, invest, and lend - even without a bank account.","value":"90%"},{"id":2,"text":"Resilient, autonomous organizations","Paragraph":" Empower the community to organize and allocate resources to irs members. Impactful products and services on different markets.","value":"80%"}]}');
+const team_namespaceObject = JSON.parse('{"n":[{"id":1,"text":"Decentralized Finance Applications","Paragraph":"The exchanges and marketplaces will allow anyone around the world to buy, trade, invest, and lend - even without a bank account.","value":"90%"},{"id":2,"text":"Resilient, autonomous organizations","Paragraph":" Empower the community to organize and allocate resources to irs members. Impactful products and services on different markets.","value":"80%"}]}');
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 ;// CONCATENATED MODULE: ./src/components/Team/team.jsx
@@ -116,7 +116,7 @@ const Team = () => {
             children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
               className: "sub-title",
               children: [/*#__PURE__*/jsx_runtime_.jsx("h6", {
-                children: "Our Staff"
+                children: "Our World"
               }), /*#__PURE__*/jsx_runtime_.jsx("span", {}), /*#__PURE__*/jsx_runtime_.jsx("span", {}), /*#__PURE__*/jsx_runtime_.jsx("span", {})]
             }), /*#__PURE__*/jsx_runtime_.jsx("h3", {
               className: "co-tit mb-15",
@@ -140,46 +140,12 @@ const Team = () => {
             })]
           })
         }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-          className: "col-lg-6 offset-lg-1",
+          className: "col-lg-6",
           children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-            className: "img-box",
-            children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-              className: "row",
-              children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-sm-6 toright",
-                children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-                  className: "full-width",
-                  children: team_namespaceObject.f.slice(0, 2).map((team, index) => /*#__PURE__*/jsx_runtime_.jsx("div", {
-                    children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-                      className: `img sizxl ${index + 1 != team_namespaceObject.f.slice(0, 2).length ? "mb-30" : null}`,
-                      "data-tooltip-tit": team.title,
-                      "data-tooltip-sub": team.sub,
-                      children: /*#__PURE__*/jsx_runtime_.jsx("img", {
-                        src: team.image,
-                        alt: "",
-                        className: "imago wow"
-                      })
-                    })
-                  }, team.id))
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-sm-6 toleft valign",
-                children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-                  className: "full-width text-left",
-                  children: team_namespaceObject.f.slice(2, 4).map((team, index) => /*#__PURE__*/jsx_runtime_.jsx("div", {
-                    children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-                      className: `img sizxl ${index + 1 != team_namespaceObject.f.slice(2, 4).length ? "mb-30" : null}`,
-                      "data-tooltip-tit": team.title,
-                      "data-tooltip-sub": team.sub,
-                      children: /*#__PURE__*/jsx_runtime_.jsx("img", {
-                        src: team.image,
-                        alt: "",
-                        className: "imago wow"
-                      })
-                    })
-                  }, team.id))
-                })
-              })]
+            className: "img",
+            children: /*#__PURE__*/jsx_runtime_.jsx("img", {
+              src: "/img/nucleo.svg",
+              alt: ""
             })
           })
         })]

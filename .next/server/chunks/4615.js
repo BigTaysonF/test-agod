@@ -3,37 +3,6 @@ exports.id = 4615;
 exports.ids = [4615];
 exports.modules = {
 
-/***/ 6025:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "$": () => (/* binding */ thumparallax),
-/* harmony export */   "D": () => (/* binding */ thumparallaxDown)
-/* harmony export */ });
-const thumparallax = () => {
-  var imageUp = document.getElementsByClassName("thumparallax");
-
-  if (imageUp) {
-    new simpleParallax(imageUp, {
-      delay: 1,
-      scale: 1.1
-    });
-  }
-};
-const thumparallaxDown = () => {
-  var imageDown = document.getElementsByClassName("thumparallax-down");
-
-  if (imageDown) {
-    new simpleParallax(imageDown, {
-      orientation: "down",
-      delay: 1,
-      scale: 1.1
-    });
-  }
-};
-
-/***/ }),
-
 /***/ 8943:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -51,7 +20,7 @@ var Split = __webpack_require__(1514);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(1664);
 ;// CONCATENATED MODULE: ./src/data/sections/about-us3.json
-const about_us3_namespaceObject = JSON.parse('{"wp":"/img/01.svg","Lx":"/img/02.svg","Qq":{"r":28,"u":"Years Of Experience"},"TN":{"P":"Dive into a new universe","E":" of connected services."},"kQ":{"P":"AGOD as the Alpha token; from which other development promoter tokens will be created in different categories, to which entrepreneurship and/or social projects will be linked."}}');
+const about_us3_namespaceObject = JSON.parse('{"TN":{"P":"Dive into a new universe","E":" of connected services."},"kQ":{"P":"AGOD as the Alpha token; from which other development promoter tokens will be created in different categories, to which entrepreneurship and/or social projects will be linked."}}');
 // EXTERNAL MODULE: ./src/common/thumparallax.js
 var thumparallax = __webpack_require__(6025);
 // EXTERNAL MODULE: external "react/jsx-runtime"
@@ -80,48 +49,12 @@ const AboutUs3 = () => {
       children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
         className: "row",
         children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-          className: "col-lg-7",
+          className: "col-lg-6",
           children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-            className: "imgsec md-mb50",
-            children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-              className: "row",
-              children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-md-6",
-                children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-                  className: "item",
-                  children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-                    className: "imgone big-bord wow fadeInDown",
-                    "data-wow-delay": ".8s",
-                    children: /*#__PURE__*/jsx_runtime_.jsx("img", {
-                      className: "thumparallax-down",
-                      src: about_us3_namespaceObject.wp,
-                      alt: ""
-                    })
-                  }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-                    className: "exp",
-                    children: [/*#__PURE__*/jsx_runtime_.jsx("h2", {
-                      className: "nmb-font",
-                      children: about_us3_namespaceObject.Qq.r
-                    }), /*#__PURE__*/jsx_runtime_.jsx("h6", {
-                      children: about_us3_namespaceObject.Qq.u
-                    })]
-                  })]
-                })
-              }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-md-6",
-                children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-                  className: "item",
-                  children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-                    className: "imgtwo big-bord wow fadeInUp",
-                    "data-wow-delay": ".6s",
-                    children: /*#__PURE__*/jsx_runtime_.jsx("img", {
-                      className: "thumparallax",
-                      src: about_us3_namespaceObject.Lx,
-                      alt: ""
-                    })
-                  })
-                })
-              })]
+            className: "agencyimg",
+            children: /*#__PURE__*/jsx_runtime_.jsx("img", {
+              src: "/img/eco.svg",
+              alt: ""
             })
           })
         }), /*#__PURE__*/jsx_runtime_.jsx("div", {
@@ -377,13 +310,16 @@ const Services3 = () => {
               children: "Abloc CEX"
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("p", {
               children: "The People\u2019s Exchange. Designed for the community, better returns, lower fees, great interface."
-            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-              href: "/about/about-dark",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
-                className: "more-stroke",
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
-              })
-            })]
+            }),
+            /*#__PURE__*/
+
+            /*<Link href="/">*/
+            react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
+              className: "more-stroke",
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
+            })
+            /*</Link>*/
+            ]
           })
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
           className: "col-lg-4 mb-1 col-md-6 items active md-mb30",
@@ -400,13 +336,16 @@ const Services3 = () => {
               children: "Decentralized Exchange"
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("p", {
               children: "Multichain enhanced exchange, swapping digital assets multichain, with very low fees and instant transaction confirmation."
-            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-              href: "/about/about-dark",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
-                className: "more-stroke",
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
-              })
-            })]
+            }),
+            /*#__PURE__*/
+
+            /*<Link href="/">*/
+            react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
+              className: "more-stroke",
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
+            })
+            /*</Link>*/
+            ]
           })
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
           className: "col-lg-4 mb-1 col-md-6 items sm-mb30",
@@ -423,13 +362,16 @@ const Services3 = () => {
               children: "Dreamhub"
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("p", {
               children: "NFT Marketplace. Set to operate a next-gen decentralized NFT marketplace."
-            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-              href: "/about/about-dark",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
-                className: "more-stroke",
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
-              })
-            })]
+            }),
+            /*#__PURE__*/
+
+            /*<Link href="/">*/
+            react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
+              className: "more-stroke",
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
+            })
+            /*</Link>*/
+            ]
           })
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
           className: "col-lg-4 mb-1 col-md-6 items",
@@ -446,13 +388,16 @@ const Services3 = () => {
               children: "Pandora\u2019s Finance"
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("p", {
               children: "Crypto Startup Enhancer, combining the power of a protocol that builds native DAO tooling interfaces."
-            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-              href: "/about/about-dark",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
-                className: "more-stroke",
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
-              })
-            })]
+            }),
+            /*#__PURE__*/
+
+            /*<Link href="/">*/
+            react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
+              className: "more-stroke",
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
+            })
+            /*</Link>*/
+            ]
           })
         }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
           className: "col-lg-4 mb-1 col-md-6 items",
@@ -469,13 +414,16 @@ const Services3 = () => {
               children: "Wallet"
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("p", {
               children: "Not just another DeFi wallet. The bridge between the real world assets and crypto is now possible, rewards, banking system, bring your wallet with you everywhere."
-            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
-              href: "/about/about-dark",
-              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
-                className: "more-stroke",
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
-              })
-            })]
+            }),
+            /*#__PURE__*/
+
+            /*<Link href="/">*/
+            react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("a", {
+              className: "more-stroke",
+              children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("span", {})
+            })
+            /*</Link>*/
+            ]
           })
         })]
       })]

@@ -1,38 +1,7 @@
 "use strict";
-exports.id = 8632;
-exports.ids = [8632];
+exports.id = 5625;
+exports.ids = [5625];
 exports.modules = {
-
-/***/ 6025:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "$": () => (/* binding */ thumparallax),
-/* harmony export */   "D": () => (/* binding */ thumparallaxDown)
-/* harmony export */ });
-const thumparallax = () => {
-  var imageUp = document.getElementsByClassName("thumparallax");
-
-  if (imageUp) {
-    new simpleParallax(imageUp, {
-      delay: 1,
-      scale: 1.1
-    });
-  }
-};
-const thumparallaxDown = () => {
-  var imageDown = document.getElementsByClassName("thumparallax-down");
-
-  if (imageDown) {
-    new simpleParallax(imageDown, {
-      orientation: "down",
-      delay: 1,
-      scale: 1.1
-    });
-  }
-};
-
-/***/ }),
 
 /***/ 4992:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
