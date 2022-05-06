@@ -90,7 +90,7 @@ const Services4 = () => {
               className: "icon",
               children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
                 className: "imgtayson",
-                src: "/img/r1.png"
+                src: "/img/whitepaper.svg"
               })
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("br", {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
               href: "https://ablocexchange.medium.com/agod-protocol-white-papers-35fd12738b4d",
@@ -122,7 +122,7 @@ const Services4 = () => {
               className: "icon",
               children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
                 className: "imgtayson",
-                src: "/img/r2.jpg"
+                src: "/img/investors.svg"
               })
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("br", {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
               href: "https://agod.mx/wp-content/uploads/2021/07/AngelInvestors.pdf",
@@ -154,7 +154,7 @@ const Services4 = () => {
               className: "icon",
               children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("img", {
                 className: "imgtayson",
-                src: "/img/r3.jpg"
+                src: "/img/terminos.svg"
               })
             }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("br", {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
               href: "https://agod.mx/wp-content/uploads/2021/07/TermSheet.pdf",

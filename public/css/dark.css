@@ -9266,7 +9266,21 @@ section.next-prog.section-padding {
 }
 .imgtayson {
   position: relative;
-  width: 120%;
-  height: 120%;
-  left: 40%;
+  width: 80%;
+  height: 80%;
+  left: 17.5%;
+}
+.butay {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.butay a {
+  width: 15em;
+  height: 5em;
+  line-height: 60px;
+  text-align: center;
+  border: 1px solid rgba(255, 99, 71, 1);
+  font-size: 13px;
+  margin-right: 10px;
 }

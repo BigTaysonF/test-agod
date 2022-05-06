@@ -1,7 +1,9 @@
 import React from "react";
+import Link from "next/link";
 import particlesConfig from "../../config/particle-config";
 import particlesBlackConfig from "../../config/pr-s-black";
 import Particles from "react-tsparticles";
+
 
 const Intro4 = ({ sliderRef, blackStar }) => {
   return (
@@ -16,8 +18,20 @@ const Intro4 = ({ sliderRef, blackStar }) => {
               <h4>
               <span className="color-font">We use blockchain to collectively fund & support startups at a global scale.</span>
               </h4>
-
             </div>
+            <br />
+            <div className="butay">
+            <Link href="https://ablocexchange.medium.com/agod-protocol-white-papers-35fd12738b4d">
+                <a>
+                  <span>White Paper</span>
+                </a>
+              </Link>
+              <Link href="https://ablocexchange.medium.com/agod-protocol-white-papers-35fd12738b4d">
+                <a>
+                  <span>How Blockchain Works</span>
+                </a>
+              </Link>
+                </div>
           </div>
         </div>
       </div>

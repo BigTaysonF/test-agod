@@ -30,7 +30,7 @@ const Services4 = () => {
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <h5>Whitepaper</h5>
               <span className="icon">
-              <img className="imgtayson" src="/img/r1.png"></img>
+              <img className="imgtayson" src="/img/whitepaper.svg"></img>
               </span>
               <br />
               <Link href="https://ablocexchange.medium.com/agod-protocol-white-papers-35fd12738b4d">
@@ -50,7 +50,7 @@ const Services4 = () => {
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <h5>Angel Investors</h5>
               <span className="icon">
-                <img className="imgtayson" src="/img/r2.jpg"></img>
+                <img className="imgtayson" src="/img/investors.svg"></img>
               </span>
               <br />
               <Link href="https://agod.mx/wp-content/uploads/2021/07/AngelInvestors.pdf">
@@ -70,7 +70,7 @@ const Services4 = () => {
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <h5>Terms Sheet</h5>
               <span className="icon">
-              <img className="imgtayson" src="/img/r3.jpg"></img>
+              <img className="imgtayson" src="/img/terminos.svg"></img>
               </span>
               <br />
               <Link href="https://agod.mx/wp-content/uploads/2021/07/TermSheet.pdf">
