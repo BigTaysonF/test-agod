@@ -6259,7 +6259,9 @@ text-align: center;
 }
 .team-crv .img img{
   display: block;
-  margin-left: 6em;
+  margin-left: 3em;
+  width: 80%;
+  height: 80%;
 }
 
 .team .item.cir .img {
