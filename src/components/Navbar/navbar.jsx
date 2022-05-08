@@ -26,21 +26,6 @@ const Navbar = ({ lr, nr, theme }) => {
             )}
           </a>
         </Link>
-
-        <button
-          className="navbar-toggler"
-          type="button"
-          onClick={handleMobileDropdown}
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="icon-bar">
-            <i className="fas fa-bars"></i>
-          </span>
-        </button>
       </div>
     </nav>
   );
