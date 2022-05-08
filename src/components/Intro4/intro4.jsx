@@ -21,16 +21,18 @@ const Intro4 = ({ sliderRef, blackStar }) => {
             </div>
             <br />
             <div className="butay">
-            <Link href="https://ablocexchange.medium.com/agod-protocol-white-papers-35fd12738b4d">
-                <a>
-                  <span>White Paper</span>
+            <a href="https://ablocexchange.medium.com/agod-protocol-white-papers-35fd12738b4d">
+                  <i className="fas fa-file"></i>
                 </a>
-              </Link>
-              <Link href="https://ablocexchange.medium.com/agod-protocol-white-papers-35fd12738b4d">
-                <a>
-                  <span>How Blockchain Works</span>
+                <span>
+                  White Paper
+                </span>
+                <a href="https://youtu.be/SSo_EIwHSd4">
+                  <i className="fab fa-youtube"></i>
                 </a>
-              </Link>
+                <span>
+                  How Blockchains Works
+                </span>
                 </div>
           </div>
         </div>
