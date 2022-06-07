@@ -3405,7 +3405,7 @@ span:hover {
 .main-content {
   background: #111215;
   position: relative;
-  z-index: 3;
+  z-index: 2;
   overflow-x: hidden !important;
 }
 
@@ -3925,7 +3925,7 @@ span:hover {
   -webkit-box-shadow: -15px 10px 30px rgba(0, 0, 0, 0.05);
   box-shadow: -15px 10px 30px rgba(0, 0, 0, 0.05);
   overflow: hidden;
-  z-index: 2;
+  z-index: 1;
 }
 
 .agency .img .icon {
@@ -3938,7 +3938,7 @@ span:hover {
   position: absolute;
   bottom: 20%;
   left: 40%;
-  z-index: 3;
+  z-index: 2;
 }
 
 .agency .img .icon:after {
@@ -4369,7 +4369,7 @@ span:hover {
 
 .services .container {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 .services.box {
   background: #000000;
@@ -4605,7 +4605,7 @@ span:hover {
 .feat .items {
   padding: 60px 40px;
   position: relative;
-  z-index: 3;
+  z-index: 2;
 }
 
 .feat .items:after {
@@ -4797,7 +4797,7 @@ text-align: center;
 .min-area .img {
   padding: 120px 0 120px 80px;
   position: relative;
-  z-index: 3;
+  z-index: 2;
   background-color: #000;
 }
 
@@ -8048,6 +8048,9 @@ text-align: center;
 footer {
   color: #fff;
   padding: 10px 0;
+  z-index: 999999;
+  position: relative;
+
 }
 
 footer .item .title h5 {
@@ -8127,6 +8130,7 @@ footer .item .logo img {
 footer .item .social {
   text-align: center;
   margin-top: 10px;
+
 }
 
 footer .item .social a {
@@ -8138,6 +8142,7 @@ footer .item .social a {
   border: 1px solid rgba(255, 255, 255, 0.05);
   font-size: 13px;
   margin-right: 10px;
+
 }
 
 footer .item .copy-right {
@@ -9290,4 +9295,8 @@ section.next-prog.section-padding {
   background-color: #961b1e;
   z-index: 999999;
   position: relative;
+}
+
+.btn-banner {
+  margin-top: 10em;
 }

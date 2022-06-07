@@ -6,7 +6,7 @@ import DarkTheme from "../../layouts/Dark";
 import Intro4 from "../../components/Intro4/intro4";
 import AboutUs3 from "../../components/About-us3/about-us3";
 import Services3 from "../../components/Services3/services3";
-import Services4 from "../../components/Services4/services4";
+/*import Services4 from "../../components/Services4/services4";*/
 import MinimalArea2 from "../../components/Minimal-Area2/minimal-area2";
 
 const Homepage5 = () => {
@@ -36,7 +36,6 @@ const Homepage5 = () => {
       <AboutUs3 />
       <Services3 />
       <MinimalArea2 />
-      <Services4 />
       <Footer />
     </DarkTheme>
   );

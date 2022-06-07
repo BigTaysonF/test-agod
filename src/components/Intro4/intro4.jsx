@@ -1,14 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import particlesConfig from "../../config/particle-config";
 import particlesBlackConfig from "../../config/pr-s-black";
 import Particles from "react-tsparticles";
+import ReactModal from "react-modal";
+import {useRef, useEffect} from 'react';
 
-
+ReactModal.setAppElement('#container')
 const Intro4 = ({ sliderRef, blackStar }) => {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    // 👇️ use a ref (best)
+    const el2 = ref.current;
+    console.log(el2);
+
+    // 👇️ use document.getElementById()
+    // should only be used when you can't set a ref prop on the element
+    // (you don't have access to the element)
+    const el = document.getElementById('container');
+    console.log(el);
+  }, []);
   return (
     <header ref={sliderRef} className="particles circle-bg valign">
-      <div className="container">
+      <div ref={ref} id="container" className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="cont text-center">
