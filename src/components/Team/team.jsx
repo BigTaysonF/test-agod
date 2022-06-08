@@ -18,15 +18,15 @@ const Team = () => {
           <div className="col-lg-5 valign">
             <div className="content wow fadeInUp md-mb30" data-wow-delay=".5s">
               <div className="sub-title">
-                <h6>Our World</h6>
+                <h6>OUR WORLD OUR ECOSYSTEM</h6>
                 <span></span>
                 <span></span>
                 <span></span>
               </div>
               <h3 className="co-tit mb-15">COMMUNITY DRIVEN.</h3>
               <p>
-                Fair launches coming soon. All AGOD tokens will be based on
-                community and social-economical business startups and companies.
+              Fair launches coming soon. All AGOD tokens will be community based. 
+              Giving you special access to investments within our multilinked platforms.
               </p>
               <div className="skills-box mt-40">
                 {teamsDate.skills.map((skill) => (

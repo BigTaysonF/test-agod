@@ -28,10 +28,10 @@ const Intro4 = ({ sliderRef, blackStar }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1>
-                <span className="color-font">AGOD Ecosystem</span><br /> THE NEXT-GEN OF FUNDING <br />
+                <span className="color-font">AGOD Ecosystem</span><br /> The Next-Gen Blockchain <br />
               </h1>
               <h4>
-              <span className="color-font">We use blockchain to collectively fund & support startups at a global scale.</span>
+              <span className="color-font">Integrating the best blockchain services to offer users and investors top notch investing opportunities with great rewards.</span>
               </h4>
             </div>
             <br />
