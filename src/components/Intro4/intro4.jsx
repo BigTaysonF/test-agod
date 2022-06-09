@@ -6,7 +6,7 @@ import Particles from "react-tsparticles";
 import ReactModal from "react-modal";
 import {useRef, useEffect} from 'react';
 
-ReactModal.setAppElement('#container')
+
 const Intro4 = ({ sliderRef, blackStar }) => {
   const ref = useRef(null);
 

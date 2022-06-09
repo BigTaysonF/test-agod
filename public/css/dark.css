@@ -8046,8 +8046,7 @@ text-align: center;
 /* ====================== [ End contact ] ====================== */
 /* ====================== [ Start Footer ] ====================== */
 footer {
-  color: #fff;
-  padding: 10px 0;
+  padding: 3em 0px;
   z-index: 999999;
   position: relative;
 

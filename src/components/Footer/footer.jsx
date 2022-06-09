@@ -3,9 +3,9 @@ import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 
-const Footer = ({ hideBGCOLOR }) => {
+const Footer = () => {
   return (
-    <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
+    <footer>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6">
@@ -48,13 +48,13 @@ const Footer = ({ hideBGCOLOR }) => {
                 </p>
                 <p>
                 <Link
-                    href="https://agod.mx/terms/"
+                    href="/homepage/terms"
                   >
                     <a target="_blank">Terms of Use</a>
                   </Link>
                    || 
                   <Link
-                    href="https://agod.mx/privacy/"
+                    href="/homepage/privacy"
                   >
                     <a target="_blank">Privacy Policy</a>
                   </Link>
