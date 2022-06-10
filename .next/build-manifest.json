@@ -30,6 +30,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/homepage/privacy": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/homepage/privacy.js"
+    ],
     "/homepage/terms": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
