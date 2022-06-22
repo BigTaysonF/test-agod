@@ -28,7 +28,7 @@ const Intro4 = ({ sliderRef, blackStar }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1>
-                <span className="color-font">AGOD Ecosystem</span><br /> The Next-Gen Blockchain <br />
+              <img src="/img/slider-2.png"></img><br />
               </h1>
               <h4>
               <span className="color-font">Integrating the best blockchain services to offer users and investors top notch investing opportunities with great rewards.</span>
