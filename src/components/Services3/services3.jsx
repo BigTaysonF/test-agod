@@ -36,11 +36,11 @@ const Services3 = () => {
                 The People’s Exchange. Designed for the community, better
                 returns, lower fees, great interface.
               </p>
-              {/*<Link href="/">*/
+              <Link href="https://www.abloc.io">
                 <a className="more-stroke">
                   <span></span>
                 </a>
-              /*</Link>*/}
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 mb-1 col-md-6 items active md-mb30">
@@ -48,7 +48,7 @@ const Services3 = () => {
               <span className="icon">
                 <img className="taysonimg" src="/img/f2.svg"></img>
               </span>
-              <h5>Decentralized Exchange</h5>
+              <h5>Adex Exchange</h5>
               <p>
                 Multichain enhanced exchange, swapping digital assets
                 multichain, with very low fees and instant transaction
@@ -100,7 +100,7 @@ const Services3 = () => {
               <span className="icon">
               <img className="taysonimg" src="/img/f5.svg"></img>
               </span>
-              <h5>Wallet</h5>
+              <h5>Ra Wallet</h5>
               <p>
                 Not just another DeFi wallet. The bridge between the real world
                 assets and crypto is now possible, rewards, banking system,
